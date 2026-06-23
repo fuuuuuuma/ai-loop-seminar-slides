@@ -1495,6 +1495,43 @@ ul.dot li::before { content: ""; position: absolute; left: 8px; top: 13px; width
   <p style="position:absolute; bottom:70px; left:0; right:0; text-align:center; font-size:20px; font-weight:700;">構成案を渡して、デザイン参照元を指定して、検証ループを回した成果物です</p>
 </section>
 
+<!-- 80b 種明かし: 使ったプロンプト -->
+<section class="slide s-box s-band">
+  <div class="band"><h1>使ったプロンプトは、たったこれだけ</h1><span class="dots white"></span></div>
+  <div class="boxwrap" style="padding-top:30px;">
+    <div class="frame" style="background:#0E3D4A; color:#DFF2EF; border:0; font-size:18px; line-height:1.7; text-align:left; max-width:1000px;">
+      <p style="color:#7FE5D8; font-weight:900;">【ゴール】</p>
+      <p>このドキュメントを元に、セミナースライドを100〜120枚で作って。</p>
+      <p style="color:#7FE5D8; font-weight:900; margin-top:12px;">【ループ（達成するまで繰り返す）】</p>
+      <p>① ドキュメントを読み込む　② 構成を作る → 100〜120枚に膨らませる</p>
+      <p>③ 内容を確認 → 過不足があれば①へ戻る　④ スライドを作成する</p>
+      <p>⑤ 自分でスクショして確認　⑥ 崩れがあれば直して⑤へ戻る</p>
+      <p style="color:#7FE5D8; font-weight:900; margin-top:12px;">【デザイン】Canvaを読み取って反映（構成は真似しない）　【出力】HTML と PPTX</p>
+    </div>
+    <p class="body center" style="font-size:20px;">指示したのは<strong class="red">「ゴール」と「ループの回し方」</strong>だけ。細かい作業手順は書いていません。</p>
+  </div>
+</section>
+
+<!-- 80c 種明かし: その後のAIの動き -->
+<section class="slide s-band">
+  <div class="band"><h1>あとは、AIが勝手に走り続けた</h1><span class="dots white"></span></div>
+  <div class="content">
+    <div class="colcenter" style="gap:14px;">
+      <ul class="check" style="font-size:18px; line-height:1.5;">
+        <li>Googleドキュメントを読み込み、<strong class="teal">構成を設計</strong></li>
+        <li>Canvaの<strong class="teal">148ページを解析</strong>して「デザインの設計図」を自動生成</li>
+        <li><strong class="teal">128枚のスライド</strong>をHTMLで一気に作成</li>
+        <li>全128枚を<strong class="red">自分でスクショ</strong>して、文字のはみ出しを自動検出</li>
+        <li><strong class="teal">レビューAIを6体</strong>動かして、誤字・デザイン崩れを総点検</li>
+        <li>指摘を自分で修正 → <strong class="red">合格するまで再検証</strong></li>
+        <li>最新情報（モデルの最新動向）も自分で<strong class="teal">リサーチ＆裏取り</strong></li>
+        <li>PPTXに変換し、<strong class="teal">公開URLまで生成</strong></li>
+      </ul>
+      <div class="callout" style="font-size:21px;">人間がやったのは「<span class="red">最初の指示</span>」と「<span class="red">ときどきのOK</span>」だけ</div>
+    </div>
+  </div>
+</section>
+
 <!-- 81 事例3ポイント -->
 <section class="slide s-box s-band">
   <div class="band"><h1>③ 成功のポイント</h1><span class="dots white"></span></div>
@@ -1954,17 +1991,69 @@ ul.dot li::before { content: ""; position: absolute; left: 8px; top: 13px; width
   <div class="darkband"><p>でも、本当のチャンスは<br>「<span style="color:#7FE5D8;">その先</span>」にあります</p></div>
 </section>
 
-<!-- CTA-2 スキルは仕事になる＋需要 -->
+<!-- CTA-2 スキルは仕事になる（コンセプト） -->
 <section class="slide s-band">
   <div class="band"><h1>実は、このAIスキルは「仕事」になります</h1><span class="dots white"></span></div>
   <div class="content">
-    <div class="colcenter" style="gap:22px;">
-      <p class="big center" style="font-size:30px;">「AIで稼ぐ」から「AIに稼がせる」、さらに——<br>「<span class="red">AIを教える・任される</span>」側へ</p>
+    <div class="colcenter" style="gap:28px;">
+      <div style="display:flex; align-items:center; gap:18px; flex-wrap:nowrap;">
+        <div style="background:var(--bg-gray); border-radius:14px; padding:18px 26px; text-align:center;"><p style="font-size:22px; font-weight:900; color:#5b6b6f;">AIで稼ぐ</p><p class="note">自分が使う</p></div>
+        <p style="font-size:30px; color:var(--teal-mid); font-weight:900;">→</p>
+        <div style="background:var(--bg-light); border-radius:14px; padding:18px 26px; text-align:center;"><p style="font-size:22px; font-weight:900; color:var(--teal-deep);">AIに稼がせる</p><p class="note">ループで自動化</p></div>
+        <p style="font-size:30px; color:var(--teal-mid); font-weight:900;">→</p>
+        <div style="background:var(--grad-band); border-radius:14px; padding:18px 26px; text-align:center;"><p style="font-size:22px; font-weight:900; color:#fff;">AIスキルで稼ぐ</p><p class="note" style="color:#cfe7e4;">人に提供する</p></div>
+      </div>
+      <p class="big center" style="font-size:27px;">あなたが今日学んだ<span class="red">ループ設計</span>は、<br>そのまま「<span class="teal">価値</span>」になります</p>
+    </div>
+  </div>
+  <div class="qcircle"></div>
+</section>
+
+<!-- CTA-3 市場は爆発＋人材ギャップ -->
+<section class="slide s-band">
+  <div class="band"><h1>市場は爆発、でも「使える人」が足りない</h1><span class="dots white"></span></div>
+  <div class="content">
+    <div style="display:grid; grid-template-columns:1fr 1.05fr; gap:40px; align-items:center; height:100%;">
+      <div>
+        <p style="font-size:17px; font-weight:900; color:var(--teal-deep); margin-bottom:8px;">国内AI市場（IDC予測）</p>
+        <svg viewBox="0 0 460 300" style="width:100%;">
+          <g font-family="Noto Sans JP, sans-serif" text-anchor="middle">
+            <line x1="60" y1="258" x2="430" y2="258" stroke="#5b6b6f" stroke-width="2"/>
+            <rect x="110" y="170" width="90" height="88" rx="4" fill="#8FB8B3"/>
+            <rect x="290" y="58" width="90" height="200" rx="4" fill="#35BCAC"/>
+            <text x="155" y="158" font-size="20" font-weight="900" fill="#0C5F6A">2.37兆円</text>
+            <text x="335" y="46" font-size="22" font-weight="900" fill="#E03131">6.89兆円</text>
+            <text x="155" y="280" font-size="16" fill="#5b6b6f">2025年</text>
+            <text x="335" y="280" font-size="16" fill="#5b6b6f">2029年</text>
+          </g>
+        </svg>
+        <p class="big center" style="font-size:22px; margin-top:4px;">4年で <span class="red">約2.9倍</span></p>
+      </div>
+      <div>
+        <ul class="dot" style="font-size:19px;">
+          <li>企業の生成AI導入率は<strong class="teal">57.7%</strong>まで上昇（2年で1.7倍）</li>
+          <li>でも<strong class="red">85%の企業がAI人材不足</strong>（米23.8%・独44.6%より突出）</li>
+          <li><strong class="red">70%が「スキル不足」</strong>を課題に挙げる</li>
+        </ul>
+        <div class="callout" style="margin-top:16px; font-size:19px;">「使う人」は増えた。足りないのは<br>「<span class="red">使いこなして教えられる人</span>」</div>
+      </div>
+    </div>
+  </div>
+  <p class="note" style="position:absolute; bottom:18px; left:0; right:0; text-align:center;">出典: IDC Japan（2026年3月）/ NRI「IT活用実態調査2025」/ IPA「DX動向2025」</p>
+</section>
+
+<!-- CTA-4 AIコンサルの需要・単価 -->
+<section class="slide s-band">
+  <div class="band"><h1>だから「AIコンサル」の価値が上がっている</h1><span class="dots white"></span></div>
+  <div class="content">
+    <div class="colcenter" style="gap:20px;">
       <ul class="dot" style="font-size:20px;">
-        <li>今日の<strong class="teal">ループ設計</strong>は、企業も個人も喉から手が出るほど欲しいスキル</li>
-        <li>AIを使う人は急増、でも<strong class="red">成果を出せる人はごく一部</strong>（本編スライド参照）</li>
-        <li>だから「<strong class="teal">AIコンサル</strong>」という働き方の需要が、いま急速に高まっています</li>
+        <li>世界のAIコンサル市場は <strong class="teal">2024年 140億ドル → 2030年 728億ドル</strong>（年31%成長）</li>
+        <li>AI導入支援の案件は <strong class="red">月60〜120万円</strong>が中心帯（一部に月200万円超の高単価例も）</li>
+        <li>「AIでもできる作業」は単価が下落、<strong class="teal">「AIを設計・導入できる人」に需要が集中</strong></li>
       </ul>
+      <div class="callout">今日のスキルは、"消える側"ではなく<span class="red">"求められる側"</span></div>
+      <p class="note">出典: 民間調査各社（2024〜2026）。案件単価は公開エージェント集計で、高単価は一部の例</p>
     </div>
   </div>
   <div class="qcircle"></div>
@@ -2000,6 +2089,13 @@ ul.dot li::before { content: ""; position: absolute; left: 8px; top: 13px; width
       <p class="note">出典: 株式会社エヌイチ「ChatGPT道場」受講生実績（YouTube）</p>
     </div>
   </div>
+</section>
+
+<!-- CTA-5b 熱量ピーク -->
+<section class="slide s-statement">
+  <p class="lead">ここまで来たあなたへ</p>
+  <div class="darkband"><p>動き出すなら、「<span style="color:#7FE5D8;">今日</span>」が<br>いちばん早い</p></div>
+  <p style="position:absolute; bottom:70px; left:0; right:0; text-align:center; font-size:20px; font-weight:700;">あとは「あなたに合った具体的な地図」があれば、迷わず進めます</p>
 </section>
 
 <!-- CTA-4 作成会バナー（フルブリード） -->
